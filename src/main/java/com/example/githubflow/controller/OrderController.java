@@ -9,6 +9,6 @@ public class OrderController {
   public String hello() {
     System.out.println("OrderController.hello() called");
     // Simulating a delay to mimic processing time
-    return "order feature!";
+    return "注文機能!";
   }
 }

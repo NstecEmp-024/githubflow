@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping("/user")
     public String hello() {
-        return "こんにちはユーザ";
+        return "ユーザー機能!";
     }
 }

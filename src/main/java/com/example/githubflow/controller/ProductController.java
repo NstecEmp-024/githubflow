@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProductController {
     @GetMapping("/product")
     public String hello() {
-        return "商品機能!";
+        return "商品機能";
     }
 }
